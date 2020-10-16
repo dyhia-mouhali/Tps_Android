@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exo6Q2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="403dp"
+        android:layout_height="721dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvnom"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Nom:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvnomp"
+                android:layout_width="169dp"
+                android:layout_height="27dp"
+                android:text="................"
+                tools:layout_editor_absoluteX="216dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvpreom"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Prenom:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvpreomp"
+                android:layout_width="169dp"
+                android:layout_height="27dp"
+                android:text="................"
+                tools:layout_editor_absoluteX="216dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvage"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="l'age est :"
+                android:textCollor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvagep"
+                android:layout_width="169dp"
+                android:layout_height="27dp"
+                android:text="................"
+                tools:layout_editor_absoluteX="216dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvdomaine"
+                android:layout_width="50dp"
+                android:layout_height="64dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="le domaine est:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvdomainep"
+                android:layout_width="169dp"
+                android:layout_height="27dp"
+                android:text="................"
+                tools:layout_editor_absoluteX="216dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="364dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvnum"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="numero de tel c'est"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvnump"
+                android:layout_width="169dp"
+                android:layout_height="27dp"
+                android:text="................"
+                tools:layout_editor_absoluteX="216dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="483dp">
+
+            <Button
+                android:id="@+id/bok"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="OK" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="540dp">
+            <Button
+                android:id="@+id/bretour"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Retour"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="retour" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

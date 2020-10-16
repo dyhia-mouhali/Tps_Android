@@ -1,0 +1,2 @@
+rootProject.name='EXO5Secouer'
+include ':app'

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exo5">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvnom"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Nom:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ednom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Nom" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvprenom"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Prénom:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edprenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Prénom" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvage"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="âge:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="âge" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvdomaine"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Domaine:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/eddomaine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="domaine de compétences" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvtel"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="N de tel:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edtel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="numéro de téléphone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="483dp">
+
+        <Button
+            android:id="@+id/bvalider"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="valider" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
